@@ -13,4 +13,7 @@
     <string name="txemail">Your Email</string>
     <string name="txPassword">Your Password</string>
     <string name="label2">Login Success</string>
+    <string name="menu1">Menu</string>
+    <string name="menu2">Form Baru</string>
+    <string name="menu3">Edit Data</string>
 </resources>
