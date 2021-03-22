@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Layout 1</string>
+    <string name="PAM">Praktikum PAM</string>
+    <string name="login">Log In</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="ok">Login</string>
+    <string name="welcome">Welcome Back !</string>
+    <string name="judul2">Page 2</string>
+    <string name="tData">YOUR DATA</string>
+    <string name="tEmail">Email :</string>
+    <string name="tPassword">Password :</string>
+    <string name="txemail">Your Email</string>
+    <string name="txPassword">Your Password</string>
+    <string name="label2">Login Success</string>
+</resources>
