@@ -72,11 +72,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, form_baru.class);
             startActivity(intent);
         }
-        else if (item.getItemId() == R.id.edit)
-        {
-            Intent intent = new Intent(MainActivity.this, edit_data.class);
-            startActivity(intent);
-        }
-        return true;
+        return super.onOptionsItemSelected(item);
     }
 }
