@@ -14,11 +14,11 @@
     <string name="txPassword">Your Password</string>
     <string name="label2">Login Success</string>
     <string name="menu1">Menu</string>
-    <string name="menu2">Pendaftaran</string>
-    <string name="ldaftar">Daftar</string>
-    <string name="enama">Masukkan Nama</string>
-    <string name="eemail">Masukkan Email</string>
-    <string name="epass">Masukkan Password</string>
-    <string name="erepass">Masukkan Password Kembali</string>
-    <string name="ealamat">Masukkan Alamat</string>
+    <string name="menu2">Registration</string>
+    <string name="ldaftar">Sign Up</string>
+    <string name="enama">Name</string>
+    <string name="eemail">Email</string>
+    <string name="epass">Password</string>
+    <string name="erepass">Repassword</string>
+    <string name="ealamat">Address</string>
 </resources>
