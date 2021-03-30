@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     b.putString("a", EmailKey.trim());
                     b.putString("b", PwKey.trim());
 
-                    Intent intentBaru = new Intent( MainActivity.this, page2.class);
+                    Intent intentBaru = new Intent(getApplicationContext(), home_act.class);
                     intentBaru.putExtras(b);
                     startActivity(intentBaru);
                 }
@@ -66,10 +66,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.baru)
         {
-            Intent intent = new Intent(MainActivity.this, form_baru.class);
+            Intent intent = new Intent(getApplicationContext(), home_act.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
